@@ -1,6 +1,6 @@
 # Chat Application
 
-A simple chat application built with MERN Stack.
+A simple chat web application built with MERN Stack.
 
 ## Setup Instructions
 
