@@ -1,0 +1,9 @@
+{
+  "name": "chatApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/khan0003-py/chatApp.git",
+  "author": "Arshad Khan <114798077+khan0003-py@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {"start": "node ./api/index.js"}
+}
