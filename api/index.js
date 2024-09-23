@@ -9,6 +9,7 @@ const User = require('./models/User');
 const Message = require('./models/Message');
 const ws = require('ws');
 const fs = require('fs');
+const PORT = process.env.PORT || 4040;
 
 dotenv.config();
 
@@ -137,7 +138,7 @@ app.post('/register', async (req, res) => {
   }
 });
 
-const server = app.listen(4040, () => {
+const server = app.listen(PORT, () => {
   console.log('Server is running on http://localhost:4040');
 });
 
